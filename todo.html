@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="head">
+      <h1>TO DO LIST</h1>
+      <h5>"STOP PROCRASTINATING IN LIFE"</h5></div>
+     <p id="header">
+        Personal
+        Shopping
+        Work
+        Wishlist
+        FINISHED
+      </p>
+    
+
+    <div class="quote">
+      "Procrastination is the thief of time." – Edward Young<br>
+      "Never put off till tomorrow what you can do today." – Benjamin Franklin<br>
+      "Procrastination makes easy things hard, hard things harder." – Mason Cooley<br>
+      "Procrastination is the art of keeping up with yesterday." – Don Marquis<br>
+      "I never put off till tomorrow what I can do the day after." – Mark Twain<br>
+    </div>
+
+    <div class="fwrite">
+      <textarea class="new list" placeholder="Enter your task here..." onclick="clearDisplay()" value="n"></textarea>
+      <input type="button" value="Add Task" onclick="addTask()">
+      <div id="taskList">
+        </div>
+    </div>
+   <script src="todo.js" ></script>
+
+</body>
+</html>
